@@ -1,4 +1,4 @@
-# iOS Development Homework
+# iOS Development Challenge
 
 ##Instructions
 
@@ -23,6 +23,16 @@ Extra points will be awarded if:
 * You implement "pull to refresh" in the UITableViewController.
 * You come up with a nice and modern UI/UX.
 * You use Test Driven Development and implement test cases.
+* You document your classes and methods using HeaderDoc.
+
+##Deadline
+
+You'll have 3-5 days to complete this challenge. The clock starts ticking from the moment you receive access to this repository. If you finish it sooner... hey, extra points!
+
+
+##Additional Information
+
+Please add any additional information on how to run the project or any additional comments to the file called README_CANDIDATE.md.
 
 
 ##Third Party APIs Documentation
