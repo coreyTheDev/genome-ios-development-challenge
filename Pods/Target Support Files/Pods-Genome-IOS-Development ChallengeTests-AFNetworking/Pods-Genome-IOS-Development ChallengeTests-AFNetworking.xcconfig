@@ -1,0 +1,1 @@
+PODS_GENOME_IOS_DEVELOPMENT_CHALLENGETESTS_AFNETWORKING_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"

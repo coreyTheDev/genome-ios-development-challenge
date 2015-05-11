@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B06A4AD1AFC3F820030DCBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4AC1AFC3F820030DCBF /* main.m */; };
+		1B06A4B01AFC3F820030DCBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4AF1AFC3F820030DCBF /* AppDelegate.m */; };
+		1B06A4B61AFC3F820030DCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B06A4B41AFC3F820030DCBF /* Main.storyboard */; };
+		1B06A4B81AFC3F820030DCBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B06A4B71AFC3F820030DCBF /* Images.xcassets */; };
+		1B06A4BB1AFC3F820030DCBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B06A4B91AFC3F820030DCBF /* LaunchScreen.xib */; };
+		1B06A4C71AFC3F830030DCBF /* Genome_IOS_Development_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4C61AFC3F830030DCBF /* Genome_IOS_Development_ChallengeTests.m */; };
+		1B06A4D31AFC44E40030DCBF /* GoogleMapsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4D21AFC44E40030DCBF /* GoogleMapsConstants.m */; };
+		1B06A4D61AFC452B0030DCBF /* GoogleMapsAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4D51AFC452B0030DCBF /* GoogleMapsAPIClient.m */; };
+		1B06A4D91AFC53B90030DCBF /* PlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4D81AFC53B90030DCBF /* PlacesTableViewController.m */; };
+		1B06A4DC1AFC54130030DCBF /* GoogleMapsDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4DB1AFC54130030DCBF /* GoogleMapsDataStore.m */; };
+		1B06A4E01AFCFF4F0030DCBF /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4DF1AFCFF4F0030DCBF /* CustomTableViewCell.m */; };
+		1B06A4E21AFCFF610030DCBF /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B06A4E11AFCFF610030DCBF /* CustomTableViewCell.xib */; };
+		1B06A4E61AFD02F80030DCBF /* GooglePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4E51AFD02F80030DCBF /* GooglePlace.m */; };
+		1B06A4E91AFD2BD40030DCBF /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A4E81AFD2BD40030DCBF /* PlaceDetailViewController.m */; };
+		1B3C704B1AFD9CD2007233B1 /* GoogleMapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3C704A1AFD9CD2007233B1 /* GoogleMapLocationViewController.m */; };
+		1B3C704D1AFE983B007233B1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3C704C1AFE983B007233B1 /* CoreLocation.framework */; };
+		1B409D7A1AFFDEC00088C468 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B409D791AFFDEC00088C468 /* FBSDKCoreKit.framework */; };
+		1B409D7C1AFFDED20088C468 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B409D7B1AFFDED20088C468 /* FBSDKLoginKit.framework */; };
+		1B409D7E1AFFDED80088C468 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B409D7D1AFFDED80088C468 /* FBSDKShareKit.framework */; };
+		1B409D821AFFF7580088C468 /* FacebookLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B409D811AFFF7580088C468 /* FacebookLoginViewController.m */; };
+		2C6524A9C292BFE1045C2479 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C496E48E443D2C026FBD5E2E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B06A4C11AFC3F830030DCBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B06A49F1AFC3F820030DCBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B06A4A61AFC3F820030DCBF;
+			remoteInfo = "Genome-IOS-Development Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B06A4A71AFC3F820030DCBF /* Genome-IOS-Development Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genome-IOS-Development Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B06A4AB1AFC3F820030DCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B06A4AC1AFC3F820030DCBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B06A4AE1AFC3F820030DCBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B06A4AF1AFC3F820030DCBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B06A4B51AFC3F820030DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B06A4B71AFC3F820030DCBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B06A4BA1AFC3F820030DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B06A4C01AFC3F830030DCBF /* Genome-IOS-Development ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Genome-IOS-Development ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B06A4C51AFC3F830030DCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B06A4C61AFC3F830030DCBF /* Genome_IOS_Development_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Genome_IOS_Development_ChallengeTests.m; sourceTree = "<group>"; };
+		1B06A4D11AFC44E40030DCBF /* GoogleMapsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsConstants.h; sourceTree = "<group>"; };
+		1B06A4D21AFC44E40030DCBF /* GoogleMapsConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsConstants.m; sourceTree = "<group>"; };
+		1B06A4D41AFC452B0030DCBF /* GoogleMapsAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsAPIClient.h; sourceTree = "<group>"; };
+		1B06A4D51AFC452B0030DCBF /* GoogleMapsAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsAPIClient.m; sourceTree = "<group>"; };
+		1B06A4D71AFC53B90030DCBF /* PlacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewController.h; sourceTree = "<group>"; };
+		1B06A4D81AFC53B90030DCBF /* PlacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewController.m; sourceTree = "<group>"; };
+		1B06A4DA1AFC54130030DCBF /* GoogleMapsDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsDataStore.h; sourceTree = "<group>"; };
+		1B06A4DB1AFC54130030DCBF /* GoogleMapsDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsDataStore.m; sourceTree = "<group>"; };
+		1B06A4DE1AFCFF4F0030DCBF /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		1B06A4DF1AFCFF4F0030DCBF /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		1B06A4E11AFCFF610030DCBF /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		1B06A4E41AFD02F80030DCBF /* GooglePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlace.h; sourceTree = "<group>"; };
+		1B06A4E51AFD02F80030DCBF /* GooglePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlace.m; sourceTree = "<group>"; };
+		1B06A4E71AFD2BD40030DCBF /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailViewController.h; sourceTree = "<group>"; };
+		1B06A4E81AFD2BD40030DCBF /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailViewController.m; sourceTree = "<group>"; };
+		1B3C70491AFD9CD2007233B1 /* GoogleMapLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapLocationViewController.h; sourceTree = "<group>"; };
+		1B3C704A1AFD9CD2007233B1 /* GoogleMapLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapLocationViewController.m; sourceTree = "<group>"; };
+		1B3C704C1AFE983B007233B1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1B409D791AFFDEC00088C468 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1B409D7B1AFFDED20088C468 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		1B409D7D1AFFDED80088C468 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		1B409D801AFFF7580088C468 /* FacebookLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookLoginViewController.h; sourceTree = "<group>"; };
+		1B409D811AFFF7580088C468 /* FacebookLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookLoginViewController.m; sourceTree = "<group>"; };
+		A6D87B6E32885CDBAF90E33E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C496E48E443D2C026FBD5E2E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D561A3B985756322741024C8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B06A4A41AFC3F820030DCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3C704D1AFE983B007233B1 /* CoreLocation.framework in Frameworks */,
+				1B409D7A1AFFDEC00088C468 /* FBSDKCoreKit.framework in Frameworks */,
+				1B409D7E1AFFDED80088C468 /* FBSDKShareKit.framework in Frameworks */,
+				1B409D7C1AFFDED20088C468 /* FBSDKLoginKit.framework in Frameworks */,
+				2C6524A9C292BFE1045C2479 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B06A4BD1AFC3F830030DCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B06A49E1AFC3F820030DCBF = {
+			isa = PBXGroup;
+			children = (
+				1B06A4A91AFC3F820030DCBF /* Genome-IOS-Development Challenge */,
+				1B06A4C31AFC3F830030DCBF /* Genome-IOS-Development ChallengeTests */,
+				1B06A4A81AFC3F820030DCBF /* Products */,
+				C78A5CB3483778314EFC70F6 /* Pods */,
+				7714EFBDE5362412138DFEDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B06A4A81AFC3F820030DCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B06A4A71AFC3F820030DCBF /* Genome-IOS-Development Challenge.app */,
+				1B06A4C01AFC3F830030DCBF /* Genome-IOS-Development ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B06A4A91AFC3F820030DCBF /* Genome-IOS-Development Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				1B06A4D01AFC449C0030DCBF /* GoogleMapsDataStore */,
+				1B06A4E31AFD02B40030DCBF /* GoogleMapsAPI */,
+				1B06A4DD1AFCFF200030DCBF /* Views */,
+				1B06A4AA1AFC3F820030DCBF /* Supporting Files */,
+			);
+			path = "Genome-IOS-Development Challenge";
+			sourceTree = "<group>";
+		};
+		1B06A4AA1AFC3F820030DCBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B06A4B71AFC3F820030DCBF /* Images.xcassets */,
+				1B06A4AB1AFC3F820030DCBF /* Info.plist */,
+				1B06A4AC1AFC3F820030DCBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B06A4C31AFC3F830030DCBF /* Genome-IOS-Development ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B06A4C61AFC3F830030DCBF /* Genome_IOS_Development_ChallengeTests.m */,
+				1B06A4C41AFC3F830030DCBF /* Supporting Files */,
+			);
+			path = "Genome-IOS-Development ChallengeTests";
+			sourceTree = "<group>";
+		};
+		1B06A4C41AFC3F830030DCBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B06A4C51AFC3F830030DCBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B06A4D01AFC449C0030DCBF /* GoogleMapsDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				1B06A4DA1AFC54130030DCBF /* GoogleMapsDataStore.h */,
+				1B06A4DB1AFC54130030DCBF /* GoogleMapsDataStore.m */,
+			);
+			name = GoogleMapsDataStore;
+			sourceTree = "<group>";
+		};
+		1B06A4DD1AFCFF200030DCBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B409D7F1AFFF73E0088C468 /* LoginView */,
+				1B3C70481AFD9BE2007233B1 /* FirstTab */,
+				1B3C70471AFD9BCC007233B1 /* SecondTab */,
+				1B06A4B41AFC3F820030DCBF /* Main.storyboard */,
+				1B06A4B91AFC3F820030DCBF /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1B06A4E31AFD02B40030DCBF /* GoogleMapsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1B06A4E41AFD02F80030DCBF /* GooglePlace.h */,
+				1B06A4E51AFD02F80030DCBF /* GooglePlace.m */,
+				1B06A4D11AFC44E40030DCBF /* GoogleMapsConstants.h */,
+				1B06A4D21AFC44E40030DCBF /* GoogleMapsConstants.m */,
+				1B06A4D41AFC452B0030DCBF /* GoogleMapsAPIClient.h */,
+				1B06A4D51AFC452B0030DCBF /* GoogleMapsAPIClient.m */,
+			);
+			name = GoogleMapsAPI;
+			sourceTree = "<group>";
+		};
+		1B3C70471AFD9BCC007233B1 /* SecondTab */ = {
+			isa = PBXGroup;
+			children = (
+				1B06A4DE1AFCFF4F0030DCBF /* CustomTableViewCell.h */,
+				1B06A4DF1AFCFF4F0030DCBF /* CustomTableViewCell.m */,
+				1B06A4E11AFCFF610030DCBF /* CustomTableViewCell.xib */,
+				1B06A4D71AFC53B90030DCBF /* PlacesTableViewController.h */,
+				1B06A4D81AFC53B90030DCBF /* PlacesTableViewController.m */,
+				1B06A4E71AFD2BD40030DCBF /* PlaceDetailViewController.h */,
+				1B06A4E81AFD2BD40030DCBF /* PlaceDetailViewController.m */,
+			);
+			name = SecondTab;
+			sourceTree = "<group>";
+		};
+		1B3C70481AFD9BE2007233B1 /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				1B3C70491AFD9CD2007233B1 /* GoogleMapLocationViewController.h */,
+				1B3C704A1AFD9CD2007233B1 /* GoogleMapLocationViewController.m */,
+			);
+			name = FirstTab;
+			sourceTree = "<group>";
+		};
+		1B409D7F1AFFF73E0088C468 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				1B06A4AE1AFC3F820030DCBF /* AppDelegate.h */,
+				1B06A4AF1AFC3F820030DCBF /* AppDelegate.m */,
+				1B409D801AFFF7580088C468 /* FacebookLoginViewController.h */,
+				1B409D811AFFF7580088C468 /* FacebookLoginViewController.m */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+		7714EFBDE5362412138DFEDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B409D7D1AFFDED80088C468 /* FBSDKShareKit.framework */,
+				1B409D7B1AFFDED20088C468 /* FBSDKLoginKit.framework */,
+				1B409D791AFFDEC00088C468 /* FBSDKCoreKit.framework */,
+				1B3C704C1AFE983B007233B1 /* CoreLocation.framework */,
+				C496E48E443D2C026FBD5E2E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C78A5CB3483778314EFC70F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6D87B6E32885CDBAF90E33E /* Pods.debug.xcconfig */,
+				D561A3B985756322741024C8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B06A4A61AFC3F820030DCBF /* Genome-IOS-Development Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B06A4CA1AFC3F830030DCBF /* Build configuration list for PBXNativeTarget "Genome-IOS-Development Challenge" */;
+			buildPhases = (
+				B75C5540A9D2F0DABD5D440A /* Check Pods Manifest.lock */,
+				1B06A4A31AFC3F820030DCBF /* Sources */,
+				1B06A4A41AFC3F820030DCBF /* Frameworks */,
+				1B06A4A51AFC3F820030DCBF /* Resources */,
+				5F577539A7E2FACAEAEC5062 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Genome-IOS-Development Challenge";
+			productName = "Genome-IOS-Development Challenge";
+			productReference = 1B06A4A71AFC3F820030DCBF /* Genome-IOS-Development Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B06A4BF1AFC3F830030DCBF /* Genome-IOS-Development ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B06A4CD1AFC3F830030DCBF /* Build configuration list for PBXNativeTarget "Genome-IOS-Development ChallengeTests" */;
+			buildPhases = (
+				1B06A4BC1AFC3F830030DCBF /* Sources */,
+				1B06A4BD1AFC3F830030DCBF /* Frameworks */,
+				1B06A4BE1AFC3F830030DCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B06A4C21AFC3F830030DCBF /* PBXTargetDependency */,
+			);
+			name = "Genome-IOS-Development ChallengeTests";
+			productName = "Genome-IOS-Development ChallengeTests";
+			productReference = 1B06A4C01AFC3F830030DCBF /* Genome-IOS-Development ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B06A49F1AFC3F820030DCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kavan Brandon";
+				TargetAttributes = {
+					1B06A4A61AFC3F820030DCBF = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1B06A4BF1AFC3F830030DCBF = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1B06A4A61AFC3F820030DCBF;
+					};
+				};
+			};
+			buildConfigurationList = 1B06A4A21AFC3F820030DCBF /* Build configuration list for PBXProject "Genome-IOS-Development Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B06A49E1AFC3F820030DCBF;
+			productRefGroup = 1B06A4A81AFC3F820030DCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B06A4A61AFC3F820030DCBF /* Genome-IOS-Development Challenge */,
+				1B06A4BF1AFC3F830030DCBF /* Genome-IOS-Development ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B06A4A51AFC3F820030DCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B06A4B61AFC3F820030DCBF /* Main.storyboard in Resources */,
+				1B06A4BB1AFC3F820030DCBF /* LaunchScreen.xib in Resources */,
+				1B06A4E21AFCFF610030DCBF /* CustomTableViewCell.xib in Resources */,
+				1B06A4B81AFC3F820030DCBF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B06A4BE1AFC3F830030DCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F577539A7E2FACAEAEC5062 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B75C5540A9D2F0DABD5D440A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B06A4A31AFC3F820030DCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B06A4B01AFC3F820030DCBF /* AppDelegate.m in Sources */,
+				1B06A4E01AFCFF4F0030DCBF /* CustomTableViewCell.m in Sources */,
+				1B06A4E61AFD02F80030DCBF /* GooglePlace.m in Sources */,
+				1B06A4D91AFC53B90030DCBF /* PlacesTableViewController.m in Sources */,
+				1B06A4D31AFC44E40030DCBF /* GoogleMapsConstants.m in Sources */,
+				1B06A4AD1AFC3F820030DCBF /* main.m in Sources */,
+				1B06A4E91AFD2BD40030DCBF /* PlaceDetailViewController.m in Sources */,
+				1B06A4D61AFC452B0030DCBF /* GoogleMapsAPIClient.m in Sources */,
+				1B06A4DC1AFC54130030DCBF /* GoogleMapsDataStore.m in Sources */,
+				1B3C704B1AFD9CD2007233B1 /* GoogleMapLocationViewController.m in Sources */,
+				1B409D821AFFF7580088C468 /* FacebookLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B06A4BC1AFC3F830030DCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B06A4C71AFC3F830030DCBF /* Genome_IOS_Development_ChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B06A4C21AFC3F830030DCBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B06A4A61AFC3F820030DCBF /* Genome-IOS-Development Challenge */;
+			targetProxy = 1B06A4C11AFC3F830030DCBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B06A4B41AFC3F820030DCBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B06A4B51AFC3F820030DCBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B06A4B91AFC3F820030DCBF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B06A4BA1AFC3F820030DCBF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B06A4C81AFC3F830030DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B06A4C91AFC3F830030DCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B06A4CB1AFC3F830030DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D87B6E32885CDBAF90E33E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kavanbrandon/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = "Genome-IOS-Development Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B06A4CC1AFC3F830030DCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D561A3B985756322741024C8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kavanbrandon/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = "Genome-IOS-Development Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B06A4CE1AFC3F830030DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Genome-IOS-Development ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genome-IOS-Development Challenge.app/Genome-IOS-Development Challenge";
+			};
+			name = Debug;
+		};
+		1B06A4CF1AFC3F830030DCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Genome-IOS-Development ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genome-IOS-Development Challenge.app/Genome-IOS-Development Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B06A4A21AFC3F820030DCBF /* Build configuration list for PBXProject "Genome-IOS-Development Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B06A4C81AFC3F830030DCBF /* Debug */,
+				1B06A4C91AFC3F830030DCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B06A4CA1AFC3F830030DCBF /* Build configuration list for PBXNativeTarget "Genome-IOS-Development Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B06A4CB1AFC3F830030DCBF /* Debug */,
+				1B06A4CC1AFC3F830030DCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B06A4CD1AFC3F830030DCBF /* Build configuration list for PBXNativeTarget "Genome-IOS-Development ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B06A4CE1AFC3F830030DCBF /* Debug */,
+				1B06A4CF1AFC3F830030DCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B06A49F1AFC3F820030DCBF /* Project object */;
+}
